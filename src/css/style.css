@@ -1,5 +1,5 @@
 body{
-    background-image: url('/src/img/bg-repeat.jpg');
+    background-image: url('/img/bg-repeat.jpg');
     background-size: 68px;
     display: flex;
 }
