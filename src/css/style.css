@@ -1,0 +1,119 @@
+body{
+    background-image: url('/src/img/bg-repeat.jpg');
+    background-size: 68px;
+    display: flex;
+}
+
+.duvida{
+    color: #ffffff;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.duvida .title{
+    font-weight: 900;
+    font-size: 50px;
+    height: 46px;
+    width: 800px;
+    height: 100px;
+}
+
+.duvida .texto{
+    font-weight: 400;
+    font-size: 35px;
+    height: 54px;
+    width: 720px;
+    height: 200px;
+}
+
+.formulario{
+    background-color: #ffffff;
+    width: 70vh;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.box{
+    border-radius: 10px;
+    height: 80px;
+    font-size: 40px;
+    width: 650px;
+    padding-left: 15px;
+    border-color: black;
+    display: flex;
+    font-weight: 700;
+}
+
+::placeholder{
+    opacity: 0.6;
+}
+
+.mensagem{
+    height: 250px;
+    padding-bottom: 160px;
+}
+
+.obrigatorio{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.enviar{
+    background-color: #3CCC87;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.enviar:active{
+    animation: clickAnimation 0.1s forwards;
+}
+
+@keyframes clickAnimation {
+    100% {
+      transform: scale(0.9);
+    }
+  }
+
+.grupoFormulario{
+    margin-bottom: 35px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.error {
+    border-color: red;
+}
+.success {
+    border-color: green;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+
