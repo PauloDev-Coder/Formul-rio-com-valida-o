@@ -1,5 +1,5 @@
 body{
-    background-image: url('/img/bg-repeat.jpg');
+    background-image: url('https://paulodev-coder.github.io/formulario-com-validacao/img/bg-repeat.jpg');
     background-size: 68px;
     display: flex;
 }
